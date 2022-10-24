@@ -1,0 +1,43 @@
+.retirement-calc-header {
+    color: rgb(95, 98, 103);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.main-feed-column {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+
+    .inputs-column {
+        display: flex;
+        flex: 2 0 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (max-width: 768px) {
+            display: flex;
+            flex-wrap: nowrap;
+            margin-right: 0;
+            width: 100%;
+        }
+    }
+
+    .graph-component {
+        display: flex;
+        flex: 7 0 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.main-container {
+    width: 100%;
+}

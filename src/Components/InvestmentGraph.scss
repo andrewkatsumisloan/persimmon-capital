@@ -1,0 +1,19 @@
+.graph-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(251, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 4%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}

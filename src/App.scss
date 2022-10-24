@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  background-color: rgb(251, 255, 255);
+  width: 100%;
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid black;
+    width: 100vw;
+
+    .radial-gradient-test {
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-size: 3.2rem;
+      font-weight: bold;
+      border-radius: 32.5px;
+      width: fit-content;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      height: fit-content;
+      margin-top: .45%;
+      margin-left: 1%;
+
+      background: radial-gradient(circle at center,
+          rgba(255, 163, 14, 0.82) 30%,
+          rgba(85, 174, 26, 0.5) 100%);
+    }
+  }
+}
