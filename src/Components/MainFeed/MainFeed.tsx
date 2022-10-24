@@ -9,7 +9,13 @@ const MainFeed = () => {
     <div className="main-container">
       <Tabs width="100%">
         <TabList justifyContent="center">
-          <Tab borderRadius="25px" margin="7.5px" boxShadow="xs" color="black">
+          <Tab
+            borderRadius="25px"
+            margin="7.5px"
+            boxShadow="xs"
+            color="black"
+            b
+          >
             Retirement
           </Tab>
           <Tab borderRadius="25px" margin="7.5px">
